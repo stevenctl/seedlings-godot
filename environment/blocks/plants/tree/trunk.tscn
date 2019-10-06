@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://environment/tilesets/jungle.tres" type="TileSet" id=1]
+
+[sub_resource type="GDScript" id=1]
+
+[node name="Trunk" type="Node2D"]
+position = Vector2( 32, 96 )
+script = SubResource( 1 )
+
+[node name="trunk" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_quadrant_size = 8
+format = 1
+tile_data = PoolIntArray( -131073, 4, 393219, -196608, 4, 524292, -65537, 4, 589827, -131072, 4, 524292, -1, 4, 524291, -65536, 4, 458756, 65535, 4, 524291, 0, 4, 393220 )

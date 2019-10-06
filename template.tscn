@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://environment/tilesets/jungle.tres" type="TileSet" id=1]
+
+[node name="Scene" type="Node2D"]
+
+[node name="Tile Layers" type="Node2D" parent="."]
+editor/display_folded = true
+
+[node name="Tiles 1" type="TileMap" parent="Tile Layers"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+
+[node name="Tiles 2" type="TileMap" parent="Tile Layers"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+
+[node name="Tiles 3" type="TileMap" parent="Tile Layers"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+
+[node name="Tiles 4" type="TileMap" parent="Tile Layers"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+
+[node name="Entities" type="Node2D" parent="."]
+
+[node name="Collisions" type="Node2D" parent="."]
